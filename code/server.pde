@@ -7,7 +7,10 @@ String incomingMessage = "";
 String typing = "";
 
 void setup() {
-  size(400, 200);
+  //창의크기는 아래 둘 중에 하나만 선택해야 함  
+  //size(400, 200); //창의 크기를 400, 200으로 사용하려면 주석을 해제하세요. 
+  fullScreen(); //풀스크린을 사용하려면 주석을 해제하세요.  
+  
   //서버포트를 설정  
   server = new Server(this, 5204);
 }
