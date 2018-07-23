@@ -8,5 +8,5 @@
 ### 6. 클라이언트는 전송 받은 기분에 대한 질문을 화면에 표시한다.  
 
 
-![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/socketConnect.png?raw=true)
-![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/stringTransfer.png?raw=true)
+![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/socketConnect.png?raw=true)  
+![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/stringTransfer.png?raw=true)  
