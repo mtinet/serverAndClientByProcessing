@@ -1,4 +1,5 @@
 # serverAndClientByProcessing
+# 프로세싱을 활용하여 서버와 클라이언트를 만드는 방법  
 
 ### 1. 로컬 컴퓨터에서 프로세싱을 켜고 서버를 연다.  
 ### 2. 또 다른 프로세싱을 켜고 클라이언트를 연다.  
@@ -8,5 +9,5 @@
 ### 6. 클라이언트는 전송 받은 기분에 대한 질문을 화면에 표시한다.  
 
 
-![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/socketConnect.png?raw=true)  
+![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/socketConnect1.png?raw=true)  
 ![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/stringTransfer.png?raw=true)  
