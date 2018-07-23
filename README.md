@@ -6,3 +6,7 @@
 ### 4. 서버는 전송된 내용을 화면에 표시하고, 화면을 어둡게 바꾼 다음 서서히 밝게 한다.  
 ### 5. 서버는 전송된 내용에 대한 기분을 클라이언트에 물어본다.  
 ### 6. 클라이언트는 전송 받은 기분에 대한 질문을 화면에 표시한다.  
+
+
+![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/socketConnect.png?raw=true)
+![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/stringTransfer.png?raw=true)
