@@ -44,12 +44,3 @@ void serverEvent(Server server, Client client) {
   newMessageColor = 0;
 }
 
-//키가 눌러지면 그것을 순서에 맞춰 저장하고, 엔터가 들어오면 클라이언트로 저장된 내용을 전송  
-void keyPressed() {
-  if(key == '\n') {
-    server.write(typing);
-    typing = "";
-  } else {
-    typing = typing + key;
-  }
-}
