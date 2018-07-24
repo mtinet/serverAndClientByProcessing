@@ -9,8 +9,8 @@ String typing = "";
 
 void setup() {
   //창의크기는 아래 둘 중에 하나만 선택해야 함  
-  //size(400, 200); //창의 크기를 400, 200으로 사용하려면 주석을 해제하세요. 
-  fullScreen(); //풀스크린을 사용하려면 주석을 해제하세요.  
+  size(400, 200); //창의 크기를 400, 200으로 사용하려면 주석을 해제하세요. 
+  //fullScreen(); //풀스크린을 사용하려면 주석을 해제하세요.  
   
   server = new Server(this, 5204);
   f = createFont("NanumGothic-48", 60);
@@ -22,14 +22,14 @@ void draw() {
   newMessageColor = constrain(newMessageColor + 0.3, 0, 255);
   println(newMessageColor);
   textFont(f);
-  textSize(60);
+  textSize(12);
   textAlign(CENTER);
   fill(255);
   text(incomingMessage, width/2, height/2);
   
   //문자를 작성하고 엔터를 눌러 서버로 보낸다는 메시지를 안내함  
   fill(0);
-  text("클라이언트의 메시지가 아래에 표시됩니다.", width/2, 60);
+  text("클라이언트의 메시지가 아래에 표시됩니다.", width/2, 20);
   fill(0);
   text(typing, width/2, 80);
   
