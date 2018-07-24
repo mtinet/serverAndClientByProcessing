@@ -9,8 +9,8 @@ PFont f;
 
 void setup() {
   //창의크기는 아래 둘 중에 하나만 선택해야 함  
-  //size(400, 200); //창의 크기를 400, 200으로 사용하려면 주석을 해제하세요. 
-  fullScreen(); //풀스크린을 사용하려면 주석을 해제하세요.  
+  size(400, 200); //창의 크기를 400, 200으로 사용하려면 주석을 해제하세요. 
+  //fullScreen(); //풀스크린을 사용하려면 주석을 해제하세요.  
   
   //접속할 서버의 ip, port를 지정하여 클라이언트 객체를 생성  
   client = new Client(this, "192.168.100.37", 5204);
@@ -24,6 +24,7 @@ void draw() {
   //서버로부터 온 메시지를 화면에 뿌림
   textFont(f);
   fill(newMessageColor);
+  textSize(12);
   textAlign(CENTER);
   text(messageFromServer, width/2, height*2/3);
   newMessageColor = constrain(newMessageColor + 1, 0, 255);
@@ -31,7 +32,8 @@ void draw() {
   
   //문자를 작성하고 엔터를 눌러 서버로 보낸다는 메시지를 안내함  
   fill(0);
-  text("텍스트를 입력하고, 엔터를 누르세요.", width/2, 60);
+  textSize(12);
+  text("텍스트를 입력하고, 엔터를 누르세요.", width/2, 20);
   fill(0);
   text(typing, width/2, height/3);
 }
