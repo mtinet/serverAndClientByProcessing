@@ -8,6 +8,7 @@
 ### 5. 서버는 전송된 내용에 대한 기분을 클라이언트에 물어본다.  
 ### 6. 클라이언트는 전송 받은 기분에 대한 질문을 화면에 표시한다.  
 
+## [소스코드](https://github.com/mtinet/serverAndClientByProcessing)  
 
 ![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/socketConnect1.png?raw=true)  
 ![](https://github.com/mtinet/serverAndClientByProcessing/blob/master/image/stringTransfer.png?raw=true)  
